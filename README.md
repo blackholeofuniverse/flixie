@@ -1,8 +1,24 @@
-# React + Vite
+# Flixie - Movie Finder App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Flixie is a simple movie finder app built with Vite, React, Tailwind CSS and Appwrite. It allows users to search for movies and shows, and displays the trending movies.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Search for movies and shows
+- Display trending movies
+- Shows movie details on hover
+
+## Installation
+
+1. Clone the repository
+2. Install dependencies with `npm install`
+3. Create a new Appwrite project and add the database and collection
+4. Add the Appwrite project ID, database ID and collection ID to the `.env` file
+5. Run the app with `npm run dev`
+
+
+
+
+## Author
+
+Flixie is developed by [Samrat](https://github.com/blackholeofuniverse).
